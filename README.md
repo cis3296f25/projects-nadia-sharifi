@@ -1,25 +1,33 @@
-# Welcome to Next.js
+# CampusClothing
+CampusClothing is an app that helps to advertise, facilitate, and organize in-person clothing resale pop-up events (such as those commonly seen by the Bell Tower and along Liacouras walk) for students and clubs. Often times, these events are only advertised through social media through individual personal accounts, which doesn’t have much reach, or physical flyers, which aren’t effective if students don’t pass by a certain area. This app will feature a notification system for new thrift pop-up events with information such as location, the ability to list each item and mark when they’re sold, to tag each item based on style, and to have user authentication through temple.edu. This project is valuable because it helps further reduce textile waste through having these pop-ups be more accessible and reach a wider audience. Apps such as dopplle (https://www.dopplle.com/) already exist, however, they have a credit-based system for swapping individual clothing items, while CampusClothing will be event based and rely on whatever payment method the seller has decided on  in person. There are also platforms such as Depop and Mercari, but those are also individual item centered, and require shipping, whereas CampusClothing is more of an archive/advertisement system for in person events  
 
-This is the most minimal starter for your Next.js project.
 
-## Deploy your own
+# How to run 
+For now, everything is just local. I could not find a similar existing working repo, so use this repository. This repo is a proof of concept scaffolded from the Next.js Hello World example.  
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/vercel/next.js/tree/canary/examples/hello-world&project-name=hello-world&repository-name=hello-world)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
-
-```bash
-npx create-next-app --example hello-world hello-world-app
+1. Clone this repository
 ```
-
-```bash
-yarn create next-app --example hello-world hello-world-app
+git clone [https://github.com/<your-username>/campusclothing.git](https://github.com/cis3296f25/projects-nadia-sharifi.git)
 ```
-
-```bash
-pnpm create next-app --example hello-world hello-world-app
+2. Install dependencies
+- Node.js and npm
 ```
+npm install
+```
+3. Start the development server
+```
+npm run dev
+```
+4. Open http://localhost:3000
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+
+### How to build
+- Use this GitHub repository.
+- Requires Node.js and npm.
+```
+npm run build
+npm start
+```
+- The app should start on http://localhost:3000
+
+Current version is a proof of concept and only shows the starter Next.js app.
