@@ -4,7 +4,7 @@ CampusClothing is an app that helps to advertise, facilitate, and organize in-pe
 
 # How to run 
 For now, everything is just local. I could not find a similar existing working repo, so use this repository. This repo is a proof of concept scaffolded from the Next.js Hello World example.  
-Provide here instructions on how to use your application.   
+
 1. Clone this repository
 ```
 git clone [https://github.com/<your-username>/campusclothing.git](https://github.com/cis3296f25/projects-nadia-sharifi.git)
